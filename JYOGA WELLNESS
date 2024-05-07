@@ -9,8 +9,22 @@ nav a { color: #ffffff; text-decoration: none; }
 
 /* Main Content Styles */ main { max-width: 800px; margin: 20px auto; padding: 20px; color: #ffffff; }
 
-/* Dynamic Content */ .dynamic-content { animation: fadeIn 1s ease-in-out; }
+.yoga-picture { width: 100%; height: auto; border-radius: 10px; margin-bottom: 20px; }
 
-@keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } } </style>
+.review { background-color: #374151; color: #ffffff; padding: 10px; border-radius: 10px; margin-bottom: 20px; }
 
-</head> <body> <!-- Header --> <header> <h1>JYOGA WELLNESS</h1> </header> <!-- Navigation --> <nav> <a href="#">Home</a> <a href="#">Classes</a> <a href="#">Trainers</a> <a href="#">Contact</a> </nav> <!-- Main Content --> <main> <div class="dynamic-content"> <!-- Add dynamic content here --> </div> </main> </body> </html>
+.review-author { font-weight: bold; }
+
+/* Contact Styles */ .contact { background-color: #9c7945; color: #ffffff; padding: 20px; text-align: center; }
+
+/* Enquiry Form Styles */ .enquiry-form { background-color: #374151; color: #ffffff; padding: 20px; border-radius: 10px; }
+
+.enquiry-form label { display: block; margin-bottom: 10px; }
+
+.enquiry-form input[type="text"], .enquiry-form textarea { width: 100%; padding: 10px; border-radius: 10px; border: none; margin-bottom: 20px; background-color: #444444; color: #ffffff; }
+
+.enquiry-form input[type="submit"] { background-color: #9c7945; color: #ffffff; padding: 10px 20px; border: none; border-radius: 10px; cursor: pointer; }
+
+.enquiry-form input[type="submit"]:hover { background-color: #7b5e30; } </style>
+
+</head> <body> <!-- Header --> <header> <h1>JYOGA WELLNESS</h1> </header> <!-- Navigation --> <nav> <a href="#">Home</a> <a href="#">Classes</a> <a href="#">Trainers</a> </nav> <!-- Main Content --> <main> <h2>Testimonials</h2> <div class="review"> <span class="review-author">John Doe</span> <p>I've been practicing yoga with JYOGA WELLNESS for a few months now and I can't believe the transformation I've experienced. The trainers are knowledgeable, supportive, and create a welcoming environment for all levels.</p> </div> <div class="review"> <span class="review-author">Jane Doe</span> <p>JYOGA WELLNESS has changed my life. The classes are dynamic, challenging, and have helped me grow both physically and mentally. I highly recommend JYOGA WELLNESS to anyone looking for a supportive and empowering yoga community.</p> </div> <!-- Yoga Pictures --> <h2>Our Yoga Practice</h2> <img class="yoga
