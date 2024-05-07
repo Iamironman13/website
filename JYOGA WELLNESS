@@ -1,30 +1,97 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>JYOGA WELLNESS</title> <style> /* Global Styles */ body { background-color: #000000; font-family: Arial, sans-serif; }
-/* Header Styles */ header { background-color: #9c7945; color: #ffffff; padding: 20px; text-align: center; }
-
-h1 { margin: 0; }
-
-/* Navigation Styles */ nav { background-color: #374151; color: #ffffff; display: flex; justify-content: space-around; padding: 10px 0; }
-
-nav a { color: #ffffff; text-decoration: none; }
-
-/* Main Content Styles */ main { max-width: 800px; margin: 20px auto; padding: 20px; color: #ffffff; }
-
-.yoga-picture { width: 100%; height: auto; border-radius: 10px; margin-bottom: 20px; }
-
-.review { background-color: #374151; color: #ffffff; padding: 10px; border-radius: 10px; margin-bottom: 20px; }
-
-.review-author { font-weight: bold; }
-
-/* Contact Styles */ .contact { background-color: #9c7945; color: #ffffff; padding: 20px; text-align: center; }
-
-/* Enquiry Form Styles */ .enquiry-form { background-color: #374151; color: #ffffff; padding: 20px; border-radius: 10px; }
-
-.enquiry-form label { display: block; margin-bottom: 10px; }
-
-.enquiry-form input[type="text"], .enquiry-form textarea { width: 100%; padding: 10px; border-radius: 10px; border: none; margin-bottom: 20px; background-color: #444444; color: #ffffff; }
-
-.enquiry-form input[type="submit"] { background-color: #9c7945; color: #ffffff; padding: 10px 20px; border: none; border-radius: 10px; cursor: pointer; }
-
-.enquiry-form input[type="submit"]:hover { background-color: #7b5e30; } </style>
-
-</head> <body> <!-- Header --> <header> <h1>JYOGA WELLNESS</h1> </header> <!-- Navigation --> <nav> <a href="#">Home</a> <a href="#">Classes</a> <a href="#">Trainers</a> </nav> <!-- Main Content --> <main> <h2>Testimonials</h2> <div class="review"> <span class="review-author">John Doe</span> <p>I've been practicing yoga with JYOGA WELLNESS for a few months now and I can't believe the transformation I've experienced. The trainers are knowledgeable, supportive, and create a welcoming environment for all levels.</p> </div> <div class="review"> <span class="review-author">Jane Doe</span> <p>JYOGA WELLNESS has changed my life. The classes are dynamic, challenging, and have helped me grow both physically and mentally. I highly recommend JYOGA WELLNESS to anyone looking for a supportive and empowering yoga community.</p> </div> <!-- Yoga Pictures --> <h2>Our Yoga Practice</h2> <img class="yoga
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JYOGA WELLNESS</title>
+  <!-- Set the primary color, secondary color, and background color -->
+  <style>
+    :root {
+      --primary-color: #9c7945;
+      --secondary-color: #374151;
+      --background-color: #000000;
+    }
+    /* Global Styles */
+    body {
+      background-color: var(--background-color);
+      font-family: Arial, sans-serif;
+    }
+    /* Header Styles */
+    header {
+      background-color: var(--primary-color);
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    /* Navigation Styles */
+    nav {
+      background-color: var(--secondary-color);
+      color: #ffffff;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    /* Main Content Styles */
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      color: #ffffff;
+    }
+    /* Dynamic Content */
+    .dynamic-content {
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>JYOGA WELLNESS</h1>
+  </header>
+  <!-- Navigation -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Classes</a>
+    <a href="#">Trainers</a>
+    <a href="#">Contact</a>
+  </nav>
+  <!-- Main Content -->
+  <main>
+    <!-- Add dynamic content here -->
+    <!-- Contact Details -->
+    <h2>Contact Us</h2>
+    <p>Phone: +91 9330124404</p>
+    <p>Email: <a href="mailto:dhiman.banerjee871@gmail.com">dhiman.banerjee871@gmail.com</a></p>
+    <!-- Reviews -->
+    <h2>Reviews</h2>
+    <p>"I have been attending JYOGA WELLNESS classes for a few months now and I have noticed a significant improvement in my flexibility and overall well-being. The trainers are knowledgeable and supportive." - John D.</p>
+    <p>"JYOGA WELLNESS has helped me find inner peace and calmness. The classes are challenging but also very relaxing. I highly recommend it to anyone looking to improve their physical and mental health." - Jane S.</p>
+    <!-- Enquiry Form -->
+    <h2>Enquiry</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <br>
+      <label for="location">Location:</label>
+      <input type="text" id="location" required>
+      <br>
+      <label for="query">Query:</label>
+      <textarea id="query" required></textarea>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>
