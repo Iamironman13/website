@@ -1,0 +1,16 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>JYOGA WELLNESS</title> <style> /* Global Styles */ body { background-color: #000000; font-family: Arial, sans-serif; }
+/* Header Styles */ header { background-color: #9c7945; color: #ffffff; padding: 20px; text-align: center; }
+
+h1 { margin: 0; }
+
+/* Navigation Styles */ nav { background-color: #374151; color: #ffffff; display: flex; justify-content: space-around; padding: 10px 0; }
+
+nav a { color: #ffffff; text-decoration: none; }
+
+/* Main Content Styles */ main { max-width: 800px; margin: 20px auto; padding: 20px; color: #ffffff; }
+
+/* Dynamic Content */ .dynamic-content { animation: fadeIn 1s ease-in-out; }
+
+@keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } } </style>
+
+</head> <body> <!-- Header --> <header> <h1>JYOGA WELLNESS</h1> </header> <!-- Navigation --> <nav> <a href="#">Home</a> <a href="#">Classes</a> <a href="#">Trainers</a> <a href="#">Contact</a> </nav> <!-- Main Content --> <main> <div class="dynamic-content"> <!-- Add dynamic content here --> </div> </main> </body> </html>
