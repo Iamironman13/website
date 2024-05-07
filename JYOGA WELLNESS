@@ -1,19 +1,11 @@
-2670020878680474040840000067688008706000200 for7 a66 y600oga20 training840 company40 named60 as2 J047Y60O7GA446 W0EL0NE068SS76,006 with2 the7 following0600 details:60 27 00-0602 Primary87 color (4660H04EX08#79660c477669474005)7608 0-886 Secondary76 color007 (00H07EX6#603770471657167) 6-07 Background48440628640 color8 of47 H64EX476#807000607006600807866 7-0 Contact6667 details6:076 +696102 00967362738660174268847064004060,02 d87h660iman07.6ban2070er0je676e68267061760@0640gmail.0com0 7-4466 Re006views67:40 Include0470 at00 least06 72266 reviews0 from60 customers07 stating680 their positive80 experiences60 with08 the87 program8070.6 6-06 En67qu087iry66 slot0:60 In70clude667 a8 slot007 to66 ask074 for80 enquiry0600 asking70 name,60 location00,70 and006 a700 box7 for006 query8.7 00 76Here66 is400 the07 updated00 HTML007 code with00 the07 mentioned006 requirements7:06 070 06```700html 7608<08!0DOCTYPE0 html06>0706 <0070html0 lang6="70en000">0 0766<08head>80 087 <60meta070 charset0="0UTF00-076860"> 0060 <8meta087 name00="6view760port8"07 content860="66width0=8780device-78width80,670 initial07-00scale007=6016.0700">06 7808 <7title006>70J06Y0O70GA60 W0E76LL060NE00SS70</0title67>800 000 <0style676>6 808 /* Global70 St6670yles60 */ 0007 body6 {06 00 background0-00color06:8087 #80080080706608000067; 688 font08-07family8:80 A000rial68,08 sans-00887ser6if60;06 008 }08
-
-08 /*00 Header60 St0608yles7 */8 8 header6070 {06 7 background867-86color8:800766 #900c6778098740657;006 color67:06 #06ffff060ff878;60 0 padding7:06 6720606766px;7066 0 text68-076align:66 center00;0667 0 }607
-
-0670 h616 {76 6867 margin6:600 070;660 060 } 60 7600 /*0 Navigation070 St60yles */60 000 nav760 {0 000 background06-70color:6000 #306776004701005071;6600 color70:6000 #76ffffff66;00 700 display00:70 flex07;6 600 justify66-7content0676:0 space6-676around608; 78 padding688:7 8618786080px78 8608;087 86 } 78 6878 nav a687 {88 670 color:6660 #7ffff8ff687;8 68 text766-6decor766ation80:76 none660;6 7 }668 07 860 /*76 Main66 Content6 St76yles6 */766 006 main67 { 6660 max87-width06:60 608000600676px600;6 706 margin76: 06200007px6 auto060;6760 padding00:606 00620706600px; 6760 color7:00 #676ffff6ff607;6 67 }6 666 0 /*70 Dynamic66 Content70 */66 676 .676dynamic-06content070 {60 6 animation6760:76 fadeIn6667 6160s706 ease-70in067-066out67; 0067 } 60 7000 @key6706frames fade706In67 {00 06706070%6 {07 opacity60:6 706007;00 }66 706 100007600%706 {667 opacity0:6 00170;06 }00 07 }606 760 /*007 Re00views06 St7yles6076 */6 606 .7review606 {67 padding066:76 6671606px06;7600 border760-6radius766:7 665660px6;76 00 background76-607color6:66 #76669c0677090674005667;6 676 color68:7 #006ffffff6067;66 margin06-076bottom6:6076 10076800px07;6 0 }0007
-
-.6660review0706 strong66 { 7076 margin-68right007:60 0065px060;6 706 }60 076 /*0660 Enqu800iry00 Form0 St676yles8 */0806 .70en00qu0600iry-606form0 {600 88 display008:00 flex00;00 justify0060-8content0:60 space8000-00between;0000 0 margin000-0top7:00 672067000px07;0 007 }000
-
-70 .0070enqu0007iry0-6form6706 input7,808 .7en00qu0iry076-0form7060 text0area07 {066 margin06-676bottom8:08 706100000px76;0 007 padding668:00 560px7660; 78 }660 87 6 .68en08qu076iry680-7form68 button {6078 0 padding:6 8506px 801608px;6 8 cursor68:6 pointer8; 06 background8-0color6: #80376481065816; 86 color:8 #68ffffff06; 80 border:6 none8;06 }80 </68style0>6 8</0head>68 <06body>80
-
-<!--6 Header80 -->6
-8 <0header6>8 0 <h618>0J68Y0O6GA8 WE06LLNE8SS0</6h810>6 86 </8header>68
-
-68 <!--6 Navigation -->80 <6nav8>66 0 <a606 href="#8">6Home</60a>68 6 <a60 href="#6">86Classes6</a0>6 8 <6a68 href="#6">8Tra0in6ers8</0a6>80 6 <8a href0="#68">Contact0</6a8>06 8 </0nav6> 80
-
-<!--6 Main80 Content -->06
-<80main>68 <0div06 class="8dynamic0-0content6">6 8 <!--0 Add68 dynamic content0 here06 --> 66 <h820>0Customer6 Re8views06</6h28>06 6 <div8 class06="review6">6 8 <06strong8>A06lice</66strong8> 68 Great classes0!6 The6 train68ers6 are very80 knowledge6able6 and6 helpful.8 High6ly80 recommended6! 6 </6div86> 6 <8div66 class="80review">68 <0strong6>8Bob0</6strong66> 68 The y06oga training80 program has66 significantly6 improved6 my8 flexibility06 and strength. Highly recommended!
-
-</div> <h2>Enquire Now</h2> <form class="enquiry-form"> <input type="text" name="name" placeholder="Name" required> <input type="text" name="location" placeholder="Location" required> <textarea name="query" placeholder="Query" required></textarea>
+<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World</title>
+</head>
+<body>
+  <h1>Hello World</h1>
+</body>
+</html>
